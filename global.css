@@ -7,6 +7,16 @@
     color: hsl(228, 45%, 44%);
 }
 
+.box-container {
+    border: 2px solid black;
+    width: 30em;
+    margin: auto;
+}
+
+.top-row {
+
+}
+
 .bottom-row {
     display: flex;
     flex-wrap: nowrap;
