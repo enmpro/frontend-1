@@ -1,0 +1,24 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.bottom-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.bottom-row .row-e-1 {
+    
+    border: 2px solid black;
+    margin: auto auto auto 10em;
+}
+
+.bottom-row .row-e-2 {
+    border: 2px solid black;
+    margin: auto 10em auto auto;
+}
