@@ -7,14 +7,20 @@
     color: hsl(228, 45%, 44%);
 }
 
+html {
+    background-color: #E1ECF4;
+}
+
 .box-container {
-    border: 2px solid black;
-    width: 30em;
+    width: 40em;
     margin: auto;
+
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.31);
 }
 
 .top-row {
-
+    padding: 2em;
+    background-color: #FFFFFF;
 }
 
 .bottom-row {
@@ -22,13 +28,15 @@
     flex-wrap: nowrap;
 }
 
-.bottom-row .row-e-1 {
-    
-    border: 2px solid black;
-    margin: auto auto auto 10em;
+.bottom-row .bot-e-1 {
+    flex: 50%;
+    background-color: #05A5A3;
+    padding: 2em;
+    text-align: center;
 }
 
-.bottom-row .row-e-2 {
-    border: 2px solid black;
-    margin: auto 10em auto auto;
+.bottom-row .bot-e-2 {
+    flex: 50%;
+    background-color: #28B3B2;
+    padding: 2em;
 }
