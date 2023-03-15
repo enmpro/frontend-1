@@ -20,7 +20,8 @@ html {
     
     margin: 10em auto;
     background-color: #ffffff00;
-    
+    border-radius: 1em;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.31);
 }
 
 .top-row {
@@ -28,7 +29,6 @@ html {
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.31);
 }
 
 .bottom-row {
@@ -43,7 +43,7 @@ html {
     padding: 2em;
     text-align: center;
     border-bottom-left-radius: 1em;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.31);
+
 }
 
 .bottom-row .bot-e-2 {
@@ -51,5 +51,5 @@ html {
     background-color: #28B3B2;
     padding: 2em;
     border-bottom-right-radius: 1em;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.31);
+
 }
