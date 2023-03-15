@@ -7,9 +7,17 @@
     color: hsl(228, 45%, 44%);
 }
 
+@font-face {
+    font-family: 'Karla';
+    src: url('https://fonts.google.com/specimen/Karla');
+}
+
+
 html {
     background-color: #E1ECF4;
+    font-family: 'Karla';
 }
+
 
 .position-box {
     height: 50em;
