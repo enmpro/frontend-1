@@ -39,6 +39,18 @@ html {
     background-color: #FFFFFF;
 }
 
+.top-e-1 h3 {
+    color: #3FB0AF;
+}
+
+.top-e-1 h4 {
+    color: #BFDF32;
+}
+
+.top-e-1 p {
+    color: #A6A7B2;
+}
+
 .bottom-row {
     display: flex;
     flex-wrap: nowrap;
@@ -54,10 +66,28 @@ html {
 
 }
 
+.bot-e-1 > h3, p {
+    color : #FFFFFF;
+}
+
+.bot-e-1 button {
+    color : #FFFFFF;
+    background-color: #BFDF32;
+    width: 19.5em;
+    height: 3.5em;
+    border: 0px;
+    border-radius: 0.2em;
+    box-shadow: 0px 0px 10px black;
+}
+
 .bottom-row .bot-e-2 {
     flex: 50%;
     background-color: #28B3B2;
     padding: 2em;
     border-bottom-right-radius: 1em;
 
+}
+
+.bot-e-2 > h3, p {
+    color : #FFFFFF;
 }
