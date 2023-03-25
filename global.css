@@ -12,10 +12,13 @@
     src: url('https://fonts.google.com/specimen/Karla');
 }
 
+* {
+    font-family: 'Karla';
+}
 
 html {
     background-color: #E1ECF4;
-    font-family: 'Karla';
+    
 }
 
 
@@ -51,6 +54,10 @@ html {
     color: #A6A7B2;
 }
 
+#tp-1 {
+    line-height: 1.5em;
+}
+
 .bottom-row {
     display: flex;
     flex-wrap: nowrap;
@@ -61,9 +68,26 @@ html {
     flex: 50%;
     background-color: #05A5A3;
     padding: 2em;
-    text-align: center;
     border-bottom-left-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
 
+.dollar-items {
+    display: flex;
+}
+
+#dollar {
+    font-size: 2.5em;
+    
+}
+
+#per-month {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    padding-left: 10px;
 }
 
 .bot-e-1 > h3, p {
@@ -73,11 +97,12 @@ html {
 .bot-e-1 button {
     color : #FFFFFF;
     background-color: #BFDF32;
-    width: 19.5em;
-    height: 3.5em;
+    width: 312px;
+    height: 56px;
     border: 0px;
-    border-radius: 0.2em;
+    border-radius: 11.2px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.384);
+    font-size: 20px;
 }
 
 .bottom-row .bot-e-2 {
@@ -90,4 +115,22 @@ html {
 
 .bot-e-2 > h3, p {
     color : #FFFFFF;
+}
+
+@media (width <= 700px) {
+    .box-container {
+        width: 400px;
+    }
+
+    .bottom-row {
+        flex-wrap: wrap;
+    }
+
+    .bottom-row .bot-e-1 {
+        border-bottom-left-radius: 0;
+    }
+
+    .bottom-row .bot-e-2 {
+        border-bottom-left-radius: 1em;
+    }
 }
