@@ -12,24 +12,27 @@
     src: url('https://fonts.google.com/specimen/Karla');
 }
 
-
-html {
-    background-color: #E1ECF4;
+* {
     font-family: 'Karla';
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
+html {
+    background-color: #E1ECF4;    
+}
 
 .position-box {
     height: 50em;
 }
 
 .box-container {
-    width: 40em;
-    
+    width: 47em;
     margin: 10em auto;
     background-color: #ffffff00;
     border-radius: 1em;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.31);
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.31);
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.31);
 }
 
 .top-row {
@@ -45,49 +48,125 @@ html {
 
 .top-e-1 h4 {
     color: #BFDF32;
+    margin: auto auto -0.5em auto;
 }
 
 .top-e-1 p {
     color: #A6A7B2;
 }
 
+#tp-1 {
+    line-height: 1.5em;
+}
+
 .bottom-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: nowrap;
-    
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
 }
 
 .bottom-row .bot-e-1 {
-    flex: 50%;
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
     background-color: #05A5A3;
     padding: 2em;
-    text-align: center;
     border-bottom-left-radius: 1em;
-
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
 }
 
-.bot-e-1 > h3, p {
+.dollar-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 2px;
+}
+
+#dollar {
+    font-size: 2.5em;
+    
+}
+
+#per-month {
+    color: #a0d3d2;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.bot-e-1 h3, p {
     color : #FFFFFF;
+}
+
+.bot-e-1 > h3, button {
+    margin: 0.5em 0;
+}
+
+
+#d-text-e-1 {
+    margin-top: 2px;
 }
 
 .bot-e-1 button {
     color : #FFFFFF;
     background-color: #BFDF32;
-    width: 19.5em;
-    height: 3.5em;
+    width: 312px;
+    height: 56px;
     border: 0px;
-    border-radius: 0.2em;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.384);
+    border-radius: 11.2px;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
 }
 
 .bottom-row .bot-e-2 {
-    flex: 50%;
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
     background-color: #28B3B2;
     padding: 2em;
     border-bottom-right-radius: 1em;
-
 }
 
 .bot-e-2 > h3, p {
     color : #FFFFFF;
+}
+
+@media (width <= 700px) {
+    .box-container {
+        width: 400px;
+    }
+
+    #tp-1 {
+        line-height: 2.5em;
+    }
+
+    .bottom-row {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .bottom-row .bot-e-1 {
+        border-bottom-left-radius: 0;
+    }
+
+    .bottom-row .bot-e-2 {
+        border-bottom-left-radius: 1em;
+    }
+
+    .attribution {
+        padding-top: 12em;
+    }
 }
