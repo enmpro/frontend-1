@@ -1,0 +1,27 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: url("https://fonts.google.com/specimen/Overpass");
+}
+
+* {
+  font-family: "Overpass";
+  box-sizing: border-box;
+}
+
+.rating-form {
+  margin: auto;
+  width: 600px;
+  background-color: hsl(216, 12%, 8%);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
