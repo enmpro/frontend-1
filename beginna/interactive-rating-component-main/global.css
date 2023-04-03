@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400&display=swap');
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -6,14 +8,13 @@
   color: hsl(228, 45%, 44%);
 }
 
-@font-face {
-  font-family: "Overpass";
-  src: url("https://fonts.google.com/specimen/Overpass");
+* {
+  font-family: 'Overpass', sans-serif;
+  box-sizing: border-box;
 }
 
-* {
-  font-family: "Overpass";
-  box-sizing: border-box;
+html {
+  background-color: hsl(216, 12%, 8%);
 }
 
 .rating-form {
@@ -24,4 +25,27 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+.rating-form button[type="button"] {
+  border-radius: 32em;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 19%, 18%);
+  border: none;
+  font-size: large;
+}
+
+.star-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rating-form button[type="submit"] {
+  margin: 10px auto;
+  width: 540px;
+  height: 48px;
+  border-radius: 32em;
+  font-size: 20px;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
 }
