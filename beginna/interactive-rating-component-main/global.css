@@ -23,8 +23,8 @@ html {
 
 .rating-form {
   margin: auto auto;
-  width: 500px;
-  background-color: hsl(216, 12%, 8%);
+  width: 450px;
+  background: linear-gradient(#252d37, #121417);
   color: white;
   border: 2px solid white;
   display: flex;
@@ -33,8 +33,12 @@ html {
 }
 
 
-.rating-form > h3, p {
+.rating-form > h3, #star-info {
   margin: 1em 1em;
+}
+
+#star-info {
+  width: 80%;
 }
 
 .rating-form button[type="button"] {
