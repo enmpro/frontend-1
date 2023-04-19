@@ -42,9 +42,12 @@ html {
   flex-direction: column;
 }
 
+.rating-form h3 {
+  font-size: 1.7em;
+}
 
 .rating-form > h3, #star-info {
-  margin: 1em 1em;
+  margin: 1em 0;
 }
 
 #star-info {
