@@ -19,7 +19,7 @@ html {
 
 #star-icon {
   box-sizing: content-box;
-  margin: 1em 1em;
+  margin: 1em 0;
   padding: 15px;
   background-color: #252E37;
   border-radius: 50%;
@@ -31,7 +31,7 @@ html {
 
 .rating-form {
   margin: auto auto;
-  width: 450px;
+  width: 500px;
   background-color: #212832;
   color: white;
   /* border: 2px solid white; */
@@ -43,25 +43,32 @@ html {
 }
 
 .rating-form h3 {
-  font-size: 1.7em;
+  font-size: 2em;
 }
 
-.rating-form > h3, #star-info {
+.rating-form h3, #star-info {
   margin: 1em 0;
 }
 
+.form-items-width {
+  margin: auto;
+  width: 440px;
+}
+
+
 #star-info {
-  width: 80%;
+  width: 90%;
+  line-height: 1.5em;
+  font-size: 1.1em;
 }
 
 .star-button {
-  padding: 1.5em 0;
+  padding: .5em 0;
 }
 
 .star-button button[type="button"] {
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  padding: 20px 25px;
   color: hsl(217, 12%, 63%);
   background-color: #252E37;
   border: none;
@@ -80,11 +87,11 @@ html {
 
 .star-button {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .rating-form button[type="submit"] {
-  margin: 10px auto;
+  margin: 30px auto;
   width: 80%;
   height: 48px;
   border: none;
